@@ -57,8 +57,7 @@ Add your MongoDB connection string and other necessary variables.
 
 5. Run the application.
 
-``bash
-npm run dev
+``npm run dev``
 
 The application should now be accessible at **http://localhost:3000**. Explore the various features and functionalities provided by this webapp Website!
 
