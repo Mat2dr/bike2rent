@@ -49,6 +49,6 @@ The application should now be accessible at **http://localhost:3000**. Explore t
 
 ## Contributing
 
-We welcome contributions from the community. Feel free to submit bug reports, feature requests, or pull requests..
+Feel free to submit bug reports, feature requests, or pull requests..
 
 Happy coding! 🚴‍♂️🚴‍♀️
