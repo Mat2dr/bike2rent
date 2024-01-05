@@ -1,4 +1,4 @@
-Welcome to the documentation for my Full Stack Bike Rental Website built with Next.js 13. 
+# Welcome to the documentation for my Full Stack Bike Rental Website built with Next.js 13. 
 
 This project was initiated with the goal of exploring the backend, even though the primary focus is frontend development. The aim is to gain a deeper understanding of how the backend works with this stack, enabling more informed discussions with both frontend and backend developers. Below, you'll find detailed information on the technologies used, installation instructions, and other relevant details to get you started.
 
@@ -40,15 +40,15 @@ Follow these steps to set up and run the project locally:
 
 1. Clone the repository:
 
-   **git clone https://github.com/Mat2dr/bike2rent.git**
+   ``git clone https://github.com/Mat2dr/bike2rent.git``
 
 2. Navigate to the project directory:
 
-   **cd bike2rent**
+   ``cd bike2rent``
    
 3. Install dependencies:
 
-   **npm install**
+   ``npm install``
 
 4. Set up the environment variables:
 
@@ -57,9 +57,9 @@ Add your MongoDB connection string and other necessary variables.
 
 Run the application.
 
-   **npm run dev**
+   ``npm run dev``
 
-The application should now be accessible at http://localhost:3000. Explore the various features and functionalities provided by this webapp Website!
+The application should now be accessible at **http://localhost:3000**. Explore the various features and functionalities provided by this webapp Website!
 
 ## Contributing
 We welcome contributions from the community. Feel free to submit bug reports, feature requests, or pull requests..
