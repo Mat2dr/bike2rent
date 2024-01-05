@@ -1,4 +1,4 @@
-# Welcome to the documentation for my Full Stack Bike Rental Website built with Next.js 13. 
+# Welcome to the documentation for bike2rent built with Next.js 13. 
 
 This project was initiated with **the goal of exploring the backend**, even though the primary focus is frontend development. The aim is to **gain a deeper understanding of how the backend works with this stack**, enabling more informed discussions with both frontend and backend developers. 
 
