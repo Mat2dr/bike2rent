@@ -1,4 +1,8 @@
-Welcome to the documentation for our Full Stack Bike Rental Website built with Next.js 13. This project incorporates a powerful stack to deliver a seamless and efficient bike rental experience. Below, you'll find detailed information on the technologies used, installation instructions, and other relevant details to get you started.
+Welcome to the documentation for my Full Stack Bike Rental Website built with Next.js 13. 
+
+This project was initiated with the goal of exploring the backend, even though the primary focus is frontend development. The aim is to gain a deeper understanding of how the backend works with this stack, enabling more informed discussions with both frontend and backend developers. Below, you'll find detailed information on the technologies used, installation instructions, and other relevant details to get you started.
+
+This project incorporates a powerful stack to deliver a seamless and efficient bike rental experience.
 
 ## Technologies Used
 
@@ -37,32 +41,30 @@ Follow these steps to set up and run the project locally:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/bike-rental-nextjs.git
+   git clone https://github.com/Mat2dr/bike2rent.git
 
-bash
-Copy code
-cd bike-rental-nextjs
-Install dependencies:
+2. Navigate to the project directory:
 
-bash
-Copy code
-npm install
-Set up the environment variables:
+   ```bash
+   cd bike2rent
+   
+3. Install dependencies:
+
+    ```bash
+   npm install
+
+4. Set up the environment variables:
 
 Create a .env.local file based on the provided .env.example template.
 Add your MongoDB connection string and other necessary variables.
-Run the application:
+Run the application.
 
-bash
-Copy code
-npm run dev
-The application should now be accessible at http://localhost:3000. Explore the various features and functionalities provided by our Full Stack Bike Rental Website!
+   ```bash
+   npm run dev
 
-Contributing
-We welcome contributions from the community. Feel free to submit bug reports, feature requests, or pull requests. Please follow our contribution guidelines for a smooth collaboration process.
+The application should now be accessible at http://localhost:3000. Explore the various features and functionalities provided by this webapp Website!
 
-License
-This project is licensed under the MIT License, allowing for widespread use and modification.
+## Contributing
+We welcome contributions from the community. Feel free to submit bug reports, feature requests, or pull requests..
 
 Happy coding! 🚴‍♂️🚴‍♀️
- 
