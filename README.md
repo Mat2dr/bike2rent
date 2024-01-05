@@ -20,22 +20,6 @@ This project incorporates a powerful stack to deliver a seamless and efficient b
 
 6. **NextAuth 2023:** A complete authentication solution for Next.js applications, providing secure and customizable authentication flows.
 
-## Project Structure
-
-The project is organized into the following main directories:
-
-- **`pages/`:** Contains the pages for the Next.js application.
-
-- **`components/`:** Holds reusable React components used throughout the application.
-
-- **`styles/`:** Includes global styles and Tailwind CSS configurations.
-
-- **`prisma/`:** Configuration and migration files for the Prisma database.
-
-- **`public/`:** Static assets such as images, fonts, and other resources.
-
-- **`utils/`:** Utility functions and helper modules.
-
 ## Installation
 
 Follow these steps to set up and run the project locally:
