@@ -11,6 +11,7 @@ import { FieldValues, useForm } from "react-hook-form";
 import CountrySelect from "../inputs/CountrySelect";
 import dynamic from 'next/dynamic'
 import Counter from "../inputs/Counter";
+import ImageUpload from "../inputs/ImageUpload";
 
 enum STEPS {
     CATEGORY = 0,
@@ -50,6 +51,7 @@ const RentModal = () => {
     const category = watch('category');
     const location = watch('location');
     const seatingCount = watch('seatingCount');
+    const imageSrc = watch('imageSrc');
 
     const Map = useMemo(() => dynamic(() => import('../Map'), {
         ssr: false
@@ -141,6 +143,21 @@ const RentModal = () => {
         </div>
         )
     }
+
+    if (step === STEPS.IMAGES) {
+        bodyContent = (
+          <div className="flex flex-col gap-8">
+            <Heading
+              title="Add a photo of your bike"
+              subtitle="Show users what your bike looks like!"
+            />
+            <ImageUpload
+              onChange={(value) => setCustomValue('imageSrc', value)}
+              value={imageSrc}
+            />
+          </div>
+        )
+      }
 
     return (
         <Modal 
