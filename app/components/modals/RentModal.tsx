@@ -10,6 +10,7 @@ import CategoryInput from '../inputs/CategoryInput';
 import { FieldValues, useForm } from "react-hook-form";
 import CountrySelect from "../inputs/CountrySelect";
 import dynamic from 'next/dynamic'
+import Counter from "../inputs/Counter";
 
 enum STEPS {
     CATEGORY = 0,
@@ -48,6 +49,7 @@ const RentModal = () => {
 
     const category = watch('category');
     const location = watch('location');
+    const seatingCount = watch('seatingCount');
 
     const Map = useMemo(() => dynamic(() => import('../Map'), {
         ssr: false
@@ -122,6 +124,23 @@ const RentModal = () => {
           </div>
         );
       }
+
+    if (step === STEPS.INFO) {
+        bodyContent = (
+        <div className="flex flex-col gap-8">
+            <Heading
+            title="Share more about your bike"
+            subtitle="What do you have?"
+            />
+            <Counter
+            onChange={(value) => setCustomValue('seatingCount', value)}
+            value={seatingCount}
+            title="Seatings" 
+            subtitle="How many people can sit on the bike?"
+            />
+        </div>
+        )
+    }
 
     return (
         <Modal 
