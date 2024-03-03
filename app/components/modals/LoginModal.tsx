@@ -99,7 +99,7 @@ const LoginModal = () => {
       <hr />
       <div className="
       text-neutral-500 text-center mt-4 font-light">
-        <p>First time using Airbnb?
+        <p>First time using bike2rent?
           <span 
             onClick={onToggle} 
             className="
